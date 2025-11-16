@@ -1,0 +1,25 @@
+Copyright (C) 2025 Cloud Blender Render by Rahul Ahire
+
+Short GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+This file documents that the code in `extension.py` of this repository
+is licensed under the GNU General Public License version 3 (GPLv3).
+
+You may copy, redistribute, and/or modify the code under the terms of
+the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+The program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+A full copy of the GNU General Public License v3 should accompany
+this software. You can also find it at:
+	https://www.gnu.org/licenses/gpl-3.0.txt
+
+This short notice applies specifically to the code originally
+contained in `extension.py` (author: Cloud Blender Render).
+
