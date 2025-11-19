@@ -1,0 +1,3 @@
+[console_scripts]
+bat=blender_asset_tracer.cli:cli_main
+
