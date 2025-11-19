@@ -15,7 +15,7 @@ Blendpack is a powerful Blender addon that automatically collects all external a
 ---
 
 ## 📦 Download
-<a href="https://github.com/MeRahulAhire/BlendPack/raw/refs/heads/master/Blend%20Pack.zip">
+<a href="https://github.com/MeRahulAhire/BlendPack/raw/refs/heads/master/BlendPack.zip">
     <img src="https://img.shields.io/badge/Download-Blendpack%20v1.0-blue?style=for-the-badge&logo=blender&logoColor=white" alt="Download Blendpack">
 </a>
 
