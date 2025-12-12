@@ -1610,7 +1610,7 @@
 bl_info = {
     "name": "BlendPack",
     "author": "Cloud Blender Render",
-    "version": (1, 1, 0),
+    "version": (1, 1, 1),
     "blender": (4, 0, 0),
     "location": "View3D > Sidebar > BlendPack",
     "description": "Pack all external assets using BAT and 7-Zip",
@@ -1881,6 +1881,15 @@ class PackingTask:
 
         # 1. Create Temp Directory
         self.temp_dir = tempfile.mkdtemp(prefix="blendpack_bat_")
+        
+        # Handle Windows Long Paths (Max 260 chars)
+        if platform.system() == "Windows":
+            # Ensure absolute path
+            abs_temp = os.path.abspath(self.temp_dir)
+            # Prepend extended path prefix if not present
+            if not abs_temp.startswith("\\\\?\\"):
+                self.temp_dir = "\\\\?\\" + abs_temp
+                
         temp_pack_target = Path(self.temp_dir) / "packed_project"
         
         # 2. Setup BAT Packer
